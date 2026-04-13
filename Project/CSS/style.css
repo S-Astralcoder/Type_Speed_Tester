@@ -1,0 +1,111 @@
+QWidget#main_container {
+    background-color: #101113;
+}
+
+QFrame#title_header,
+QFrame#status_header,
+QFrame#text_display,
+QFrame#input_text {
+    background-color: #181a1d;
+    border: 1px solid #2f3338;
+    border-radius: 8px;
+}
+
+QFrame#title_header {
+    border-bottom: 2px solid #22c55e;
+}
+
+QLabel#title_label {
+    color: #f7f7f7;
+    font-size: 30px;
+    font-weight: 800;
+    background: transparent;
+    border: none;
+}
+
+QLabel#subtitle_label {
+    color: #aeb4bc;
+    font-size: 14px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+
+QLabel#timer_label,
+QLabel#wpm_label,
+QLabel#accuracy_label {
+    background-color: #0f1012;
+    color: #f4f4f5;
+    border: 1px solid #3f454c;
+    border-radius: 8px;
+    padding: 12px 22px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+QLabel#timer_label {
+    color: #22c55e;
+    border-color: #22c55e;
+}
+
+QTextEdit#show_text,
+QTextEdit#track_text,
+QTextEdit#input_text_box {
+    background-color: #0f1012;
+    color: #f4f4f5;
+    border: 1px solid #3f454c;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 18px;
+    selection-background-color: #22c55e;
+    selection-color: #0f1012;
+}
+
+QTextEdit#show_text,
+QTextEdit#track_text {
+    color: #c8cdd3;
+    background-color: #121417;
+}
+
+QTextEdit#input_text_box {
+    border-color: #5b626b;
+}
+
+QTextEdit#input_text_box:focus {
+    border: 2px solid #22c55e;
+    background-color: #121417;
+}
+
+QTextEdit#show_text QScrollBar:vertical,
+QTextEdit#track_text QScrollBar:vertical,
+QTextEdit#input_text_box QScrollBar:vertical {
+    background: #0f1012;
+    width: 10px;
+    margin: 4px 2px 4px 0;
+}
+
+QTextEdit#show_text QScrollBar::handle:vertical,
+QTextEdit#track_text QScrollBar::handle:vertical,
+QTextEdit#input_text_box QScrollBar::handle:vertical {
+    background: #3f454c;
+    border-radius: 5px;
+    min-height: 24px;
+}
+
+QTextEdit#show_text QScrollBar::add-line:vertical,
+QTextEdit#show_text QScrollBar::sub-line:vertical,
+QTextEdit#track_text QScrollBar::add-line:vertical,
+QTextEdit#track_text QScrollBar::sub-line:vertical,
+QTextEdit#input_text_box QScrollBar::add-line:vertical,
+QTextEdit#input_text_box QScrollBar::sub-line:vertical {
+    height: 0;
+}
+
+QPushButton#reset_button {
+    background-color: #181a1d;
+    border: 1px solid #22c55e;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
